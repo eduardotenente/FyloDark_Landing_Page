@@ -1,0 +1,64 @@
+/* HEADER */
+
+header {
+    margin-top: 5%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    width: 200px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+li {
+    
+}
+
+/* INITIAL SECTION */
+
+
+
+/* CARDS SECTION */
+
+
+
+/* IMAGES */
+
+.logo {
+    width: 100px;
+    height: 30px;
+}
+
+.bg-images {
+
+}
+
+.profiles-size {
+
+}
+
+
+
+/* ICONS */
+
+.icons-hero {
+
+}
+
+#arrow {
+
+}
+
+#marks {
+
+}
+
+.icons__socials-size {
+
+}

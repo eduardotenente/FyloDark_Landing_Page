@@ -5,8 +5,10 @@
 }
 
 html, body {
-    min-height: 100dvh;
+    background: var(--bg-color-primary);
+    color: var(--text-color);
     font-family: 'Roboto', sans-serif;
+    min-height: 100dvh;
 }
 
 h1 {
@@ -23,4 +25,20 @@ h3 {
 
 h4 {
     font-size: 0.8em;
+}
+
+a {
+    font-size: 0.9em;
+    text-decoration: none;
+    color: var(--text-color);
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+a#link__work {
+    color: var(--button-color);
+    &:hover {
+        text-decoration: none;
+    }
 }

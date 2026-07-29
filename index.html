@@ -13,16 +13,18 @@
 </head>
 <body>
   <header>
-    <img src="assets/images/logo/logo.svg" alt="logo Fylo">
-    <a href="#">Features</a>
-    <a href="#">Team</a>
-    <a href="#">Sign In</a>
+    <img class="logo" src="assets/images/logo/logo.svg" alt="logo Fylo">
+    <ul>
+      <li><a href="#">Features</a></li>
+      <li><a href="#">Team</a></li>
+      <li><a href="#">Sign In</a></li>
+    </ul>
   </header>
   
   <div id="bg-primary">
     <main>
       <section class="initial__section">
-        <img src="assets/images/background/illustration-intro.png" alt="ilustração">
+        <img class="bg-images" src="assets/images/background/illustration-intro.png" alt="ilustração">
         <h1>
           All your files in one secure location, accessible anywhere.
         </h1>
@@ -37,9 +39,9 @@
         <button class="button">Get Started</button>
       </section>
         
-            <section id="cards__section">
+      <section id="cards__section">
         <aside>
-          <img src="" alt="">
+          <img class="icons-hero" src="assets/images/icons/icon-access-anywhere.svg" alt="Desktop e celular ilustrativo - Acessibilidade em celulares e computadores">
           <h2>Access your files, anywhere</h2>
           <p>
             The ability to use a smartphone, tablet, or computer to access your account means your
@@ -47,7 +49,7 @@
           </p>
         </aside>
         <aside>
-          <img src="" alt="">
+          <img class="icons-hero" src="assets/images/icons/icon-security.svg" alt="Escudo = Uma segurança que pode confiar">
           <h2>Security you can trust</h2>
           <p>
             2-factor authentication and user-controlled encryption are just a couple of the security
@@ -55,7 +57,7 @@
           </p>
         </aside>
         <aside>
-          <img src="" alt="">
+          <img class="icons-hero" src="assets/images/icons/icon-collaboration.svg" alt="Relógio com pessoas - Cooperação em tempo real">
           <h2>Real-time collaboration</h2>
           <p>
             Securely share files and folders with friends, family and colleagues for live collaboration.
@@ -63,18 +65,18 @@
           </p>
         </aside>
         <aside>
-          <img src="" alt="">
+          <img class="icons-hero" src="assets/images/icons/icon-any-file.svg" alt="Arquivo - Qualquer arquivo pode ser armazenado">
           <h2>Store any type of file</h2>
           <p>
             Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all
             file types to be securely stored and shared.
           </p>
         </aside>
-            </section>
+      </section>
         
-            <section id="work__cards">
+      <section id="work__cards">
         <aside>
-          <img src="" alt="">
+          <img class="bg-images" src="assets/images/background/illustration-stay-productive.png" alt="Produtividade com colaboração">
         </aside>
         <aside>
           <h1>Stay productive, wherever you are</h1>
@@ -86,18 +88,18 @@
             Securely share files and folders with friends, family and colleagues for live collaboration. No email
             attachments required.
           </p>
-          <a href="">See how Fylo worksi <img src="assets/images/icons/icon-arrow.svg" alt="seta"></a>
+          <a id="link__work" href="#">See how Fylo works <img id="arrow" src="assets/images/icons/icon-arrow.svg" alt="seta"></a>
         </aside>
-            </section>
+      </section>
         
-            <section id="coments__cards">
+      <section id="coments__cards">
         <aside>
-          <img src="assets/images/icons/bg-quotes.png" alt="aspas">
+          <img id="marks" src="assets/images/icons/bg-quotes.png" alt="aspas">
           <p>
             Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has
             become a well-oiled collaboration machine.
           </p>
-          <h3><img src="" alt="">Satish Patel</h3>
+          <h3><img class="profiles-size" src="assets/images/profile/profile-1.jpg" alt="Presidente 1">Satish Patel</h3>
           <h4>Founder & CEO, Huddle</h4>
         </aside>
         <aside>
@@ -105,21 +107,20 @@
             Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has
             become a well-oiled collaboration machine.
           </p>
-          <h3><img src="" alt="">Bruce McKenzie</h3>
+          <h3><img class="profiles-size" src="assets/images/profile/profile-2.jpg" alt="Presidente 2">Bruce McKenzie</h3>
           <h4>Founder & CEO, Huddle</h4>
         </aside>
-        
         <aside>
           <p>
             Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has
             become a well-oiled collaboration machine.
           </p>
-          <h3><img src="" alt="">Iva Boyd</h3>
+          <h3><img class="profiles-size" src="assets/images/profile/profile-3.jpg" alt="Presidente 3">Iva Boyd</h3>
           <h4>Founder & CEO, Huddle</h4>
         </aside>
-            </section>
-          </main>
-      </div>
+      </section>
+    </main>
+  </div>
 
   <div id="acess__section">
     <h1>Get early access today</h1>
@@ -140,11 +141,11 @@
     <img src="assets/images/logo/logo.svg" alt="logo">
     <div id="footer__cards">
       <aside>
-        <p><img src="" alt=""> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+        <p><img src="assets/images/icons/icon-location.svg" alt="Localização da empresa"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
       </aside>
       <aside>
-        <p><img src="" alt=""> +1-543-123-4567</p>
-        <p><img src="" alt=""> example@fylo.com</p>
+        <p><img src="assets/images/icons/icon-phone.svg" alt="Número da empresa"> +1-543-123-4567</p>
+        <p><img src="assets/images/icons/icon-email.svg" alt="E-mail da empresa"> example@fylo.com</p>
       </aside>
       <aside>
         <p>About Us</p>
@@ -157,8 +158,12 @@
         <p>Terms</p>
         <p>Privacy</p>
       </aside>
-      <aside>
+      <aside class="icons__socials">
         <!-- Icons do facebook, twitter e Instagram -->
+        <a href="#"><img class="icons__socials-size" src="assets/images/icons/facebook.png" alt="Facebook"></a>
+        <a href="#"><img class="icons__socials-size" src="assets/images/icons/twitter.png" alt="Rede social X"></a>
+         <a href="#"><img class="icons__socials-size" src="assets/images/icons/instagram.png" alt="Instagram"></a>
+         <a href="#"><img class="icons__socials-size" src="assets/images/icons/github.png" alt="GitHub"></a>
       </aside>
     </div>
   </footer>

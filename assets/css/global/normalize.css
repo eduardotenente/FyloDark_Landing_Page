@@ -68,7 +68,18 @@ a {
 
 a#link__work {
     color: var(--button-color);
+    border-bottom: 1px solid var(--button-color);
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 5px;
+    width: 40%;
+    margin-top: 5%;
+    margin-left: 5%;
+    padding-bottom: 5px;
+    transition: color 500ms;
     &:hover {
         text-decoration: none;
+        color: var(--text-color);
     }
 }

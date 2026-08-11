@@ -83,6 +83,64 @@ ul {
 
 
 
+/* COMENTS CARDS */
+
+#coments__cards { 
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+#coments__cards aside {
+    background-color: var(--coments-bg-color);
+    text-align: left;
+    margin: auto;
+    width: 300px;
+    padding: 30px 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.055);
+}
+
+.profile-container {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-flow: row nowrap;
+    letter-spacing: 1px;
+}
+
+.profile__content {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 3px;
+}
+
+#coments__cards p {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+}
+
+#coments__cards h3 {
+    display: flex;
+    flex-flow: column nowrap;
+    
+}
+
+#coments__cards p, #coments__cards h3 {
+    font-size: 0.7em;
+}
+
+#coments__cards h4 {
+    font-size: 0.6em;
+    font-weight: normal;
+}
+
+
+
 
 /* BUTTON */
 
@@ -96,6 +154,11 @@ ul {
     border-radius: 30px;
     font-weight: bold;
     cursor: pointer;
+    transition: 300ms ease-in-out;
+
+    &:hover {
+        background-color: #b7d7db;
+    }
 }
 
 
@@ -113,7 +176,9 @@ ul {
 }
 
 .profiles-size {
-
+    margin-right: 4%;
+    border-radius: 50%;
+    width: 30px;
 }
 
 
@@ -129,7 +194,10 @@ ul {
 }
 
 #marks {
-
+    margin-top: 30%;
+    margin-bottom: -1%;
+    margin-left: -67%;
+    width: 25px;
 }
 
 .icons__socials-size {

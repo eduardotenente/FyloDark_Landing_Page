@@ -61,7 +61,6 @@ ul {
     align-content: center;
     text-align: left;
     margin-top: 30%;
-    margin-left: 3%;
     width: 100%;
 }
 
@@ -141,6 +140,74 @@ ul {
 
 
 
+/* ACESS SECTION */
+
+#acess__section {
+    background-color: var(--bg-color-secundary);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+    margin: 30% auto 0px auto;
+    width: 350px;
+    min-height: 360px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.267);
+}
+
+#acess__section h1 {
+    font-size: 1.2em;
+    margin-top: 10%;
+    
+}
+
+#acess__section p {
+    font-size: 0.9em;
+    line-height: 20px;
+    width: 90%;
+}
+
+#emailForm {
+    height: 110px;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 5px;
+}
+
+#emailInput { 
+    padding: 15px 60px;
+    border-radius: 30px;
+    border: none;
+    font-size: 0.7em;
+}
+
+#acess__section .button {
+    margin-top: 5%;
+    padding: 15px 60px;
+}
+
+#emailForm #resultMessage { 
+    width: 100%;
+    font-size: 0.8em;
+    transition: 500ms;
+}
+
+
+
+/* FOOTER */
+
+footer {
+    background-color: var(--footer-bg-color);
+}
+
+#footer__cards {
+    margin-left: 10%;
+}
+
+
+
+
 
 /* BUTTON */
 
@@ -155,11 +222,12 @@ ul {
     font-weight: bold;
     cursor: pointer;
     transition: 300ms ease-in-out;
-
+    
     &:hover {
         background-color: #b7d7db;
     }
 }
+
 
 
 /* IMAGES */
@@ -169,10 +237,18 @@ ul {
     height: 30px;
 }
 
+#logo-margin {
+    margin-top: 60%;
+    margin-left: 10%;
+}
+
 .bg-images {
     width: 80%;
     margin: auto;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .profiles-size {
@@ -201,5 +277,5 @@ ul {
 }
 
 .icons__socials-size {
-
+    width: 50px;
 }

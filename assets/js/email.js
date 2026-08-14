@@ -11,10 +11,10 @@ emailForm.addEventListener("submit", function(event) {
     const isValid = validateEmail(email);
 
     if(isValid) {
-        resultMessage.textContent = "E-mail válido!";
+        resultMessage.textContent = "E-mail válido, seja bem-vindo!";
         resultMessage.style.color = "green";
     } else {
-        resultMessage.textContent = "E-mail inválido";
+        resultMessage.textContent = "E-mail inválido! Por favor, tente novamente.";
         resultMessage.style.color = "red";
     };
 });

@@ -1,0 +1,18 @@
+/* BUTTON */
+
+.button {
+    background-color: var(--button-color);
+    color: var(--text-color);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.295);
+    margin-bottom: 30%;
+    padding: 15px 80px;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 300ms ease-in-out;
+    
+    &:hover {
+        background-color: #b7d7db;
+    }
+}

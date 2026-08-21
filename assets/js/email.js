@@ -14,7 +14,7 @@ emailForm.addEventListener("submit", function(event) {
         resultMessage.textContent = "E-mail válido, seja bem-vindo!";
         resultMessage.style.color = "green";
     } else {
-        resultMessage.textContent = "E-mail inválido! Por favor, tente novamente.";
+        resultMessage.textContent = "Por favor, adicione um email válido";
         resultMessage.style.color = "red";
     };
 });
